@@ -85,5 +85,26 @@ nav {
 	.bn{position:absolute;
 		top:2200px;
 		left:600px; 
-		border-radius:50%;  
+
+	 }
+	 main{
+	 	position:absolute; 
+	 	top:2500px;
+	 	width: 100%;
+	 	height: 700px;
+	 	background-color:#37474F; 
+	 }
+	 .shado-2{
+	 	position: absolute;
+	 	left: 200px;
+	 	bottom:300px;
+	 	width: 1000px;
+	 	height: 500px;
+	 	background-color: red;
+	 	box-shadow: -10px -10px 20px;
+
+	 }
+	 .bnr-2 img{
+	 	width:600px;
+	 	height: 500px; 
 	 }
