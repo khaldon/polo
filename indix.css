@@ -2,8 +2,8 @@ body{
 	font-family:arial;
 }
 .cont{
-	position: relative;
-	top:0px;
+	
+	
 }
 .bnr{
 	width: 100%;
@@ -96,15 +96,55 @@ nav {
 	 }
 	 .shado-2{
 	 	position: absolute;
-	 	left: 200px;
+	 	left: 170px;
 	 	bottom:300px;
 	 	width: 1000px;
 	 	height: 500px;
-	 	background-color: red;
+	 	background-color: #eeeeee;
 	 	box-shadow: -10px -10px 20px;
+	 	margin: auto;
 
 	 }
-	 .bnr-2 img{
-	 	width:600px;
-	 	height: 500px; 
+	 .bnr-2 {
+	 	width:100%;
+	 	height:100%;
+	 	position: relative;
+	 	 
 	 }
+	 .bnr-2 img{
+	 	width: 100%;
+	 	height: 100%;
+	 	transition:2s; 
+	 }
+	 	 .txt{
+	 	position: absolute;
+	 	top:100px;
+	 	
+	 	}
+	 
+
+	 }
+.bnr-2 img:hover {
+	transform:scale(1.5);
+	display:block;
+	background:black;
+	 	opacity:0.4;
+
+
+}
+.nav-2 ul li a:hover{
+	background-color:#FF6F00; 
+	border-radius:10px; 
+}
+.div{
+	width: 1000px;
+	text-align: center;
+	position: relative;
+	top:1500px;
+	margin: auto;
+	color: #eeeeee;
+}
+.car img:hover{
+	transform:scale(1.10);
+	transition:1s;  
+}
